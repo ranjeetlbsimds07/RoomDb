@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.db.room.com.roomdb.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:padding="10dp">
+       <Button
+           android:id="@+id/btnMemberListing"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Member Listing Screen"/>
+
+       <EditText
+           android:id="@+id/fName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter First Naame"
+           android:padding="10dp"/>
+
+       <EditText
+           android:id="@+id/lName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter last Naame"
+           android:padding="10dp"/>
+
+       <EditText
+           android:id="@+id/etAge"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter age"
+           android:inputType="number"
+           android:padding="10dp"/>
+       <Button
+           android:id="@+id/Btn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Submit"/>
+
+   </LinearLayout>
+</LinearLayout>
